@@ -9,14 +9,16 @@
 
 body{
     font-family: 'poppins';
-    margin-top: 10vh;
-    width:100vw;
+    text-align: center;
+    background-color: hsl(0, 0%, 9%);
+    color: aliceblue;
+    gap: 5px;
     display:flex;
     justify-content: center;
     text-align: center;
-    background-color: hsl(0, 0%, 9%);
-    color:aliceblue;
-    gap:5px;
+    margin-top: 10vh;
+    width: 100vw;
+    position:absolute;
 }
 
 ul {
@@ -28,15 +30,13 @@ ul {
     background-color: #333;
     font-weight: 500;
     border-radius: 10px;
-    margin-top: 20px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: 600ms ease-in;
-    opacity: 0;
-    translate: -50%;
+    margin-top: 20px;   
+    
+    transition: 600ms ease;
+    opacity: 1;
+    translate:-100%;
 }
+
 
 .item .show {
     opacity: 1;
