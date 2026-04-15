@@ -10,5 +10,5 @@ const observer = new IntersectionObserver((entries) => {
     })
 }, {})
 
-const todoElements = document.querySelector(".item");
+const todoElements = document.querySelector(".container");
 todoElements.forEach(el => observer(el))
